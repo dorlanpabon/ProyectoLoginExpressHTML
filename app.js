@@ -5,9 +5,11 @@ const mysql = require('mysql2/promise');
 
 // Create the connection pool. The pool-specific settings are the defaults
 const pool = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    database: 'xexpress',
+    host: 'mysql-80c75a7-acajoa2-af68.e.aivencloud.com',
+    user: 'avnadmin',
+    database: 'defaultdb',
+    password: 'AVNS_Q54InE7mmlcR0pfa-hX',
+    port: 11414,
 });
 
 // Variable para uardar usuarios y contraseña, y ruta /login para el inicio de sesion
