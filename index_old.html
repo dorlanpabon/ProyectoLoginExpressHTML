@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+
+<body>
+
+    <!-- Formulario login -->
+    <form action="http://localhost:3000/login" method="GET">
+        <label for="user">Usuario:</label>
+        <input type="text" id="user" name="user">
+        <br>
+        <label for="pass">Contraseña:</label>
+        <input type="password" id="pass" name="pass">
+        <br>
+        <input type="submit" value="Login">
+    </form>
+
+    <!-- Formulario registro -->
+    <form action="http://localhost:3000/register" method="GET">
+        <label for="user">Usuario:</label>
+        <input type="text" id="user" name="user">
+        <br>
+        <label for="pass">Contraseña:</label>
+        <input type="password" id="pass" name="pass">
+        <br>
+        <input type="submit" value="Registro">
+    </form>
+</body>
+
+</html>
